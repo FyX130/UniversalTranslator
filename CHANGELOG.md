@@ -20,3 +20,19 @@ Le format de ce journal est basé sur [Keep a Changelog](https://keepachangelog.
 
 ### Notes
 - Version de base fonctionnelle et prête à être poussée sur GitHub.
+
+---
+
+### 3. `CHANGELOG.md`
+
+```markdown
+# Changelog
+
+## [1.1.0] - 2025-05-12
+### Ajouté
+- Support de nouveaux styles de traduction : sérieux, poétique, littéral, soutenu, sarcastique, émotionnel.
+- Gestion conditionnelle pour appliquer ces styles à la sortie traduite.
+- README.md mis à jour avec documentation des nouveaux styles.
+
+### Corrigé
+- Conflits Git résolus.

@@ -1,16 +1,27 @@
-# Universal Translator
+# Traducteur Universel
 
-Ce projet est un traducteur universel multi-options avec interface graphique.
+Une application de traduction multilingue avec interface graphique et options de personnalisation stylistique.
 
 ## Fonctionnalités
 
-- Traduction multilingue (via DeepL ou Google Translate)
-- Choix du style, ton, voix, format de sortie
-- Interface en ligne de commande ou GUI (Tkinter)
-- Prévu pour une version mobile dans le futur
+- Interface graphique simple avec `tkinter`
+- Traduction automatique via `GoogleTranslator` de `deep_translator`
+- Détection automatique de la langue source
+- Choix de la langue cible
+- Choix du style de traduction :
+  - Neutre
+  - Formel
+  - Familier
+  - Humour
+  - Piquant
+  - Sérieux
+  - Poétique
+  - Littéral
+  - Soutenu
+  - Sarcastique
+  - Émotionnel
 
 ## Installation
 
-1. Cloner le dépôt :
 ```bash
-git clone https://github.com/FyX130/UniversalTranslator.git
+pip install deep-translator

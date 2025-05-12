@@ -1,11 +1,5 @@
-# Vérification de la disponibilité de tkinter
-try:
-    import tkinter as tk
-    from tkinter import ttk, messagebox
-except ModuleNotFoundError:
-    print("Erreur : le module 'tkinter' n'est pas disponible dans cet environnement.")
-    exit(1)
-
+import tkinter as tk
+from tkinter import ttk, messagebox
 from deep_translator import GoogleTranslator
 
 class TranslatorGUI:
@@ -34,7 +28,11 @@ class TranslatorGUI:
         self.target_lang.grid(row=0, column=3, padx=5, pady=5)
 
         ttk.Label(options_frame, text="Style :").grid(row=1, column=0, padx=5, pady=5)
-        self.style = ttk.Combobox(options_frame, values=["neutre", "formel", "familier", "humour", "piquant"])
+        self.style = ttk.Combobox(options_frame, values=[
+            "neutre", "formel", "familier", "humour", "piquant",
+            "sérieux", "poétique", "littéral", "soutenu",
+            "sarcastique", "émotionnel"
+        ])
         self.style.set("neutre")
         self.style.grid(row=1, column=1, padx=5, pady=5)
 
@@ -66,6 +64,18 @@ class TranslatorGUI:
                 translated = "Veuillez noter que : " + translated
             elif style == "familier":
                 translated = "Tu sais quoi ? " + translated
+            elif style == "sérieux":
+                translated = "En toute rigueur : " + translated
+            elif style == "poétique":
+                translated = translated + ", tel un souffle léger dans le vent."
+            elif style == "littéral":
+                translated = "Traduction littérale : " + translated
+            elif style == "soutenu":
+                translated = "Permettez-moi de vous transmettre ceci : " + translated
+            elif style == "sarcastique":
+                translated = "Oh bien sûr... " + translated
+            elif style == "émotionnel":
+                translated = translated + " 😢😡❤️"
 
             self.result_output.delete("1.0", tk.END)
             self.result_output.insert(tk.END, translated)
