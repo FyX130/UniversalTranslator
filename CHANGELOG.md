@@ -59,3 +59,8 @@ Le format de ce journal est basé sur [Keep a Changelog](https://keepachangelog.
 - Interface de traduction graphique.
 - Détection automatique de la langue source.
 - Traduction simple avec `deep_translator`.
+## [1.3.0] - 2025-05-12
+### Ajouts
+- Intégration d’un système d’historique des traductions (avec marquage favori prévu pour plus tard)
+- Curseurs de formalité (très formel à très informel) et de tonalité émotionnelle (positif ↔ neutre ↔ négatif)
+- Synthèse vocale du texte traduit avec gTTS + option de lecture audio
