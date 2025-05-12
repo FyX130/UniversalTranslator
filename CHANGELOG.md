@@ -1,23 +1,22 @@
-# 🧾 CHANGELOG - Traducteur GUI V1
+# Changelog
 
-## [1.1.0] - 2025-05-10
+Toutes les modifications notables apportées à ce projet seront consignées dans ce fichier.
+
+Le format de ce journal est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/), et ce projet suit le versionnage sémantique.
+
+## [1.0.0] - 2025-05-12
+
 ### Ajouté
-- Interface graphique (GUI) de base avec Tkinter
-- Sélecteurs de langue, style, humeur et champ de texte
-- Bouton de traduction et affichage du résultat
+- Création de l’interface graphique `tkinter` pour le traducteur universel.
+- Sélecteurs de langue source, langue cible et de style (neutre, formel, familier, humour, piquant).
+- Intégration de `deep_translator.GoogleTranslator`.
+- Gestion des erreurs utilisateur avec `messagebox`.
+- Affichage du résultat traduit dans une zone dédiée.
+- Système de stylisation du texte selon le ton choisi.
+- Version stable de la V1 finalisée.
 
-## [1.0.1] - 2025-05-09
-### Corrigé
-- Gestion des erreurs si le texte est vide
-- Correction du comportement de `:` mal placé
-- Nettoyage du parsing des arguments
-- Traductions plus stables en cas d'entrée complexe
+### Modifié
+- Adaptation du comportement de traduction selon le style sélectionné.
 
-## [1.0.0] - 2025-05-08
-### Ajouté
-- Fonction de traduction CLI `-t`
-- Argument `-langue` (langue cible)
-- Support des styles (`-style`) : formel, familier, soutenu...
-- Support des humeurs (`-humeur`) : neutre, piquant, dramatique...
-- Commande `-t --help` pour afficher toutes les options
-- Générateur de prompt intelligent avec structure en `:` pour détecter le texte
+### Notes
+- Version de base fonctionnelle et prête à être poussée sur GitHub.
