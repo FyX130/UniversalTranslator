@@ -1,27 +1,30 @@
 # Traducteur Universel
 
-Une application de traduction multilingue avec interface graphique et options de personnalisation stylistique.
+Une interface graphique simple pour traduire du texte en utilisant `deep_translator` et Google Translate.
 
-## Fonctionnalités
+## Fonctions disponibles
 
-- Interface graphique simple avec `tkinter`
-- Traduction automatique via `GoogleTranslator` de `deep_translator`
-- Détection automatique de la langue source
-- Choix de la langue cible
-- Choix du style de traduction :
+- Détection automatique de la langue source.
+- Choix de la langue cible.
+- Sélection du **style** de traduction :
   - Neutre
   - Formel
   - Familier
-  - Humour
+  - Humoristique
   - Piquant
-  - Sérieux
-  - Poétique
-  - Littéral
-  - Soutenu
-  - Sarcastique
-  - Émotionnel
+- Affichage du résultat dans une zone dédiée.
+
+## Captures d’écran
+
+📷 (à ajouter plus tard)
+
+## Version actuelle
+
+**v1.1.0**
 
 ## Installation
+
+Assurez-vous d'avoir les modules suivants :
 
 ```bash
 pip install deep-translator

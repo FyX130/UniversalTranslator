@@ -36,3 +36,26 @@ Le format de ce journal est basé sur [Keep a Changelog](https://keepachangelog.
 
 ### Corrigé
 - Conflits Git résolus.
+
+---
+
+### 3. `CHANGELOG.md` (à créer si non existant)
+
+```markdown
+# Changelog
+
+## [1.1.0] - 2025-05-12
+### Ajouté
+- Nouvelle sélection de **styles de traduction** (formel, familier, humoristique, piquant).
+- Préparation à l’intégration de styles plus avancés pour la version 1.2.
+
+### Changé
+- Amélioration de la gestion des erreurs.
+
+---
+
+## [1.0.0] - 2025-05-11
+### Ajouté
+- Interface de traduction graphique.
+- Détection automatique de la langue source.
+- Traduction simple avec `deep_translator`.
