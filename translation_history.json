@@ -1,1 +1,44 @@
-"[]" 
+[
+  {
+    "source": "Je teste cette nouvelle fonction audio du traducteur",
+    "result": "I test this new audio function of the translator",
+    "style": "neutre",
+    "formality": 2,
+    "tone": 0
+  },
+  {
+    "source": "bonjour la planete",
+    "result": "Hello Planet",
+    "source_lang": "auto",
+    "target_lang": "en",
+    "style": "neutre"
+  },
+  {
+    "source": "bonjour la planete",
+    "result": "Hello Planet",
+    "source_lang": "auto",
+    "target_lang": "en",
+    "style": "neutre"
+  },
+  {
+    "source": "bonjour la planete",
+    "result": "Hello Planet",
+    "source_lang": "auto",
+    "target_lang": "en",
+    "style": "neutre"
+  },
+  {
+    "source": "bonjour",
+    "result": "bonjour",
+    "source_lang": "auto",
+    "target_lang": "en",
+    "style": "neutre"
+  },
+  {
+    "source": "bonjour, vouetes qui? Moi je suis ania",
+    "result": "Hello, Who? I am animia",
+    "source_lang": "auto",
+    "target_lang": "en",
+    "style": "neutre"
+  }
+]
